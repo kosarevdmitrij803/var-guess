@@ -1,0 +1,4 @@
+ for attempt := 1; attempt <= attempts; attempt++ {
+  fmt.Print("Enter your guess (attempt ", attempt, "): ")
+  var guess int
+  _, err := fmt.Scanln(&guess)
